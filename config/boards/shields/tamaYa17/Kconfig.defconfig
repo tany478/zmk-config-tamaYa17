@@ -1,0 +1,22 @@
+if SHIELD_TAMAYA17_L
+
+config ZMK_KEYBOARD_NAME
+    default "tamaYa17_L"
+
+config ZMK_SPLIT
+    default y
+
+config ZMK_SPLIT_ROLE_CENTRAL
+    default y
+
+endif
+
+if SHIELD_TAMAYA17_R
+
+config ZMK_KEYBOARD_NAME
+    default "tamaYa17_R"
+
+config ZMK_SPLIT
+    default y
+
+endif

@@ -95,7 +95,7 @@
             &kp A           &kp S  &kp D    &mt LSHFT F  &mt LCTRL G                                               &mt RCTRL H   &mt RSHFT J    &kp K          &kp L           &kp MINUS
             &mt LWIN Z      &kp X  &kp C    &kp V        &kp B                               &kp TAB               &kp N         &kp M          &kp COMMA      &kp PERIOD      &mt RALT DEL
                                             &lt 2 LANG2  &lt_to_layer_0 1 SPACE  &mkp MB1    &lt_to_layer_0 1 RET  &kp BACKSPACE &lt 3 LANG1                                
-           &mkp MB5         &kp LC(C)       &mkp MB4     &kp LC(v)                                                 &kp PAGE_DOWN &kp HOME       &kp PAGE_DOWN  &kp END         &tog 2 
+           &mkp MB5         &kp LC(C)       &mkp MB4     &kp LC(V)                                                 &kp PAGE_DOWN &kp HOME       &kp PAGE_DOWN  &kp END         &tog 2 
                                                                                                                    &kp UP_ARROW  &kp LEFT_ARROW &kp DOWN_ARROW &kp RIGHT_ARROW
             >;
 

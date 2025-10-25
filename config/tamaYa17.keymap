@@ -173,7 +173,7 @@
                 <&inc_dec_kp C_VOL_UP C_VOL_DN>;
         };
 
-        layer_ 5 {   //レイヤー5の時の設定(3DCADレイヤー)
+        layer_5 {   //レイヤー5の時の設定(3DCADレイヤー)
             bindings = <
             &trans  &trans  &kp LC(LS(TAB))         &kp LC(TAB)              &trans                     &trans  &trans  &trans  &trans  &trans
             &trans  &trans  &kp LC(LG(LEFT_ARROW))  &kp LC(LG(RIGHT_ARROW))  &trans                     &trans  &trans  &trans  &trans  &trans

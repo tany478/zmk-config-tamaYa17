@@ -98,12 +98,12 @@
 
         default_layer { //デフォルトレイヤー(レイヤー0)
             bindings = <
-            &kp Q           &kp W  &lt 6 E  &kp R        &kp T                                                     &kp Y         &kp U          &lt 3 I        &kp O           &kp P
-            &kp A           &kp S  &kp D    &mt LSHFT F  &mt LCTRL G                                               &mt RCTRL H   &mt RSHFT J    &kp K          &kp L           &kp MINUS
-            &mt LWIN Z      &kp X  &kp C    &kp V        &kp B                               &kp TAB               &kp N         &kp M          &kp COMMA      &kp PERIOD      &mt RALT DEL
-                                            &lt 2 LANG2  &lt_to_layer_0 1 SPACE  &mkp MB1    &lt_to_layer_0 1 RET  &kp BACKSPACE &lt 3 LANG1                                
-           &mkp MB5         &kp LC(C)       &mkp MB4     &kp LC(V)                                                 &tog 4        &kp HOME       &tog 5         &kp END         &tog 2 
-                                                                                                                   &kp UP_ARROW  &kp LEFT_ARROW &kp DOWN_ARROW &kp RIGHT_ARROW
+            &kp Q       &kp W      &lt 6 E      &kp R         &kp T                                                      &kp Y           &kp U          &lt 3 I        &kp O           &kp P
+            &kp A       &kp S      &kp D        &mt LSHFT F   &mt LCTRL G                                                &mt RCTRL H     &mt RSHFT J    &kp K          &kp L           &kp MINUS
+            &mt LWIN Z  &kp X      &kp C        &kp V         &kp B                                &kp TAB               &kp N           &kp M          &kp COMMA      &kp PERIOD      &mt RALT DEL
+                        &tog 4     &tog 5       &lt 2 LANG2   &lt_to_layer_0 1 SPACE  &mkp MB1     &lt_to_layer_0 1 RET  &kp BACKSPACE   &lt 3 LANG1                                
+            &mkp MB5    &kp LC(C)  &mkp MB4     &kp LC(V)                                                                  &tog 3        &kp HOME       &tog 5         &kp END         &tog 2 
+                                                                                                                           &kp UP_ARROW  &kp LEFT_ARROW &kp DOWN_ARROW &kp RIGHT_ARROW
             >;
 
             sensor-bindings = 
@@ -116,7 +116,7 @@
             &kp QMARK  &kp DQT   &kp EXCL  &trans   &kp PIPE                           &kp BSLH  &kp UNDER  &kp LPAR  &kp RPAR  &kp PRCNT
             &kp AT     &kp SQT   &kp DLLR  &trans   &kp FSLH                           &kp HASH  &trans     &kp LBKT  &kp RBKT  &kp MINUS
             &kp LT     &kp GRAVE &kp COLON &kp SEMI &kp BSLH                &kp EQUAL  &kp TILDE &kp AMPS   &kp LBRC  &kp RBRC  &kp DOT
-                                           &trans   &trans    &mkp MB2      &trans     &trans    &trans
+                       &trans    &trans    &trans   &trans    &mkp MB2      &trans     &trans    &trans
             &trans     &kp LT    &trans    &kp GT                                      &trans    &trans     &trans    &trans    &trans    
                                                                                        &trans    &trans     &trans    &trans
             >;
@@ -131,7 +131,7 @@
             &kp F12  &kp F9  &kp F8  &kp F7  &kp CARET                       &kp ASTRK     &kp N7  &kp N8  &kp N9  &kp SLASH
             &kp F11  &kp F6  &kp F5  &kp F4  &kp LT                          &kp PLUS      &kp N4  &kp N5  &kp N6  &kp MINUS
             &kp F10  &kp F3  &kp F2  &kp F1  &kp GT               &kp EQUAL  &kp N0        &kp N1  &kp N2  &kp N3  &kp DOT
-                                     &trans  &trans    &mkp MB1   &kp RET    &kp BACKSPACE &kp COMMA
+                     &trans  &trans  &trans  &trans    &mkp MB1   &kp RET    &kp BACKSPACE &kp COMMA
             &trans   &trans  &trans  &trans                                  &trans        &trans  &trans  &trans  &trans    
                                                                              &trans        &trans  &trans  &trans
             >;
@@ -146,7 +146,7 @@
             &trans    &trans    &trans    &trans    &trans                      &trans    &trans    &trans    &trans    &trans
             &mkp MB5  &mkp MB1  &mkp MB3  &mkp MB2  &mkp MB4                    &mkp MB4  &mkp MB1  &mkp MB3  &mkp MB2  &mkp MB5
             &trans    &trans    &trans    &trans    &trans              &trans  &trans    &trans    &trans    &trans    &trans
-                                          &trans    &trans    &trans    &trans  &trans    &trans
+                      &trans    &trans    &trans    &trans    &trans    &trans  &trans    &trans
             &trans    &trans    &trans    &trans    &trans                      &trans    &trans    &trans    &trans    &trans
                                                                                 &trans    &trans    &trans    &trans    
             >;
@@ -163,7 +163,7 @@
             &kp ESCAPE      &kp LC(LS(TAB))         &kp UP_ARROW    &kp LC(TAB)              &trans                         &trans  &trans  &trans  &trans  &trans
             &kp HOME        &kp LEFT_ARROW          &kp DOWN_ARROW  &kp RIGHT_ARROW          &kp END                        &trans  &trans  &trans  &trans  &trans
             &kp LEFT_SHIFT  &kp LG(LS(LEFT_ARROW))  &trans          &kp LG(LS(RIGHT_ARROW))  &trans                 &trans  &trans  &trans  &trans  &trans  &trans
-                                                                    &trans                   &trans   &trans        &trans  &trans  &trans  
+                            &trans                  &trans          &trans                   &trans   &trans        &trans  &trans  &trans  
             &trans          &trans                  &trans          &trans                                                  &trans  &trans  &trans  &trans  &trans    
                                                                                                                             &trans  &trans  &trans  &trans
             >;
@@ -178,7 +178,7 @@
             &trans  &trans  &kp LC(LS(TAB))         &kp LC(TAB)              &trans                     &trans  &trans  &trans  &trans  &trans
             &trans  &trans  &kp LC(LG(LEFT_ARROW))  &kp LC(LG(RIGHT_ARROW))  &trans                     &trans  &trans  &trans  &trans  &trans
             &trans  &trans  &kp LG(LS(LEFT_ARROW))  &kp LG(LS(RIGHT_ARROW))  &trans              &trans &trans  &trans  &trans  &trans  &trans
-                                                    &trans                   &trans   &trans     &trans &trans  &trans
+                    &trans  &trans                  &trans                   &trans   &trans     &trans &trans  &trans
             &trans  &trans  &trans                  &trans                                              &trans  &trans  &trans  &trans  &trans    
                                                                                                         &trans  &trans  &trans  &trans                                                                                      &trans  &trans  &trans  &trans  &trans
             >;
@@ -190,7 +190,7 @@
             &trans  &trans        &trans        &trans        &trans                         &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4
             &trans  &trans        &trans        &trans        &trans                         &trans        &trans        &trans        &trans        &bt BT_CLR
             &trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans            &bootloader  &trans        &trans        &trans        &trans        &bt BT_CLR_ALL
-                                                              &trans  &trans    &trans       &trans        &trans 
+                    &trans        &trans        &trans        &trans  &trans    &trans       &trans        &trans 
             &trans  &trans        &trans        &trans                                       &trans        &trans        &trans        &trans        &trans
                                                                                              &trans        &trans        &trans        &trans        
             >;

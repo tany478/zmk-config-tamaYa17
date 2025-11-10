@@ -2,4 +2,4 @@ config SHIELD_TAMAYA17_R
     def_bool $(shields_list_contains,tamaYa17_R)
 
 config SHIELD_TAMAYA17_L
-    def_bool $(shields_list_contains,tamaya17_L)
+    def_bool $(shields_list_contains,tamaYa17_L)

@@ -1,12 +1,13 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
+#include <dt-bindings/zmk/pointing.h>
 #include <dt-bindings/zmk/mouse.h>
 #include <behaviors/rgbled_widget.dtsi>  // led制御
 
 #define ZMK_MOUSE_DEFAULT_SCRL_VAL 100   //スクロール量
 
-#define MOUSE 6
+#define MOUSE 3
 
 &mt {
     flavor = "balanced";
@@ -98,12 +99,12 @@
 
         default_layer { //デフォルトレイヤー(レイヤー0)
             bindings = <
-            &kp Q       &kp W      &lt 6 E      &kp R         &kp T                                                      &kp Y           &kp U          &lt 3 I        &kp O           &kp P
-            &kp A       &kp S      &kp D        &mt LSHFT F   &mt LCTRL G                                                &mt RCTRL H     &mt RSHFT J    &kp K          &kp L           &kp MINUS
-            &mt LWIN Z  &kp X      &kp C        &kp V         &kp B                                &kp TAB               &kp N           &kp M          &kp COMMA      &kp PERIOD      &mt RALT DEL
+            &kp Q       &kp W      &lt 6 E      &kp R         &kp T                                                      &kp Y           &kp U          &lt 3 I         &kp O           &kp P
+            &kp A       &kp S      &kp D        &mt LSHFT F   &mt LCTRL G                                                &mt RCTRL H     &mt RSHFT J    &kp K           &kp L           &kp MINUS
+            &mt LWIN Z  &kp X      &kp C        &kp V         &kp B                                &kp TAB               &kp N           &kp M          &kp COMMA       &kp PERIOD      &mt RALT DEL
                         &tog 4     &tog 5       &lt 2 LANG2   &lt_to_layer_0 1 SPACE  &mkp MB1     &lt_to_layer_0 1 RET  &kp BACKSPACE   &lt 3 LANG1                                
-            &mkp MB5    &kp LC(C)  &mkp MB4     &kp LC(V)                                                                  &tog 3        &kp HOME       &tog 5         &kp END         &tog 2 
-                                                                                                                           &kp UP_ARROW  &kp LEFT_ARROW &kp DOWN_ARROW &kp RIGHT_ARROW
+            &mkp MB5    &kp LC(C)  &mkp MB4     &kp LC(V)                                                                &kp HOME        &kp F2         &tog 2          &kp F7          &kp END
+                                                                                                                         &kp LEFT_ARROW  &kp UP_ARROW   &kp RIGHT_ARROW &kp DOWN_ARROW
             >;
 
             sensor-bindings = 

@@ -103,7 +103,7 @@
             &kp A       &kp S      &kp D        &mt LSHFT F   &mt LCTRL G                                                &mt RCTRL H     &mt RSHFT J    &kp K           &kp L           &kp MINUS
             &mt LWIN Z  &kp X      &kp C        &kp V         &kp B                                &kp TAB               &kp N           &kp M          &kp COMMA       &kp PERIOD      &mt RALT DEL
                         &tog 4     &tog 5       &lt 2 LANG2   &lt_to_layer_0 1 SPACE  &mkp MB1     &lt_to_layer_0 1 RET  &kp BACKSPACE   &lt 3 LANG1                                
-            &mkp MB5    &kp LC(C)  &mkp MB4     &kp LC(V)     &trans                                                     &kp F2          &tog 1         &tog 2          &kp F8          &kp F7
+            &mkp MB5    &kp LC(C)  &mkp MB4     &kp LC(V)     &trans                                                     &kp LC(Y)       &kp F2         &kp LC(Z)       &kp F7          &tog 2
                                                                                                                          &kp UP_ARROW  &kp LEFT_ARROW   &kp DOWN_ARROW  &kp RIGHT_ARROW &trans
             >;
 

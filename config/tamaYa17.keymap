@@ -5,7 +5,7 @@
 #include <dt-bindings/zmk/mouse.h>
 #include <behaviors/rgbled_widget.dtsi>  // led制御
 
-#define ZMK_MOUSE_DEFAULT_SCRL_VAL 100   //スクロール量
+#define ZMK_POINTING_DEFAULT_SCRL_VAL 100
 
 #define MOUSE 3
 
@@ -103,7 +103,7 @@
             &kp A       &kp S      &kp D        &mt LSHFT F   &mt LCTRL G                                                &mt RCTRL H     &mt RSHFT J    &kp K           &kp L           &kp MINUS
             &mt LWIN Z  &kp X      &kp C        &kp V         &kp B                                &kp TAB               &kp N           &kp M          &kp COMMA       &kp PERIOD      &mt RALT DEL
                         &tog 4     &tog 5       &lt 2 LANG2   &lt_to_layer_0 1 SPACE  &mkp MB1     &lt_to_layer_0 1 RET  &kp BACKSPACE   &lt 3 LANG1                                
-            &mkp MB5    &kp LC(C)  &mkp MB4     &kp LC(V)                                                                &tog 2          &kp F2         &kp F8          &kp F7          &kp END
+            &mkp MB5    &kp LC(C)  &mkp MB4     &kp LC(V)                                                                &tog 2          &kp F2         &kp MUTE          &kp F7          &kp F8
                                                                                                                          &kp RIGHT_ARROW &kp UP_ARROW   &kp LEFT_ARROW  &kp DOWN_ARROW
             >;
 
